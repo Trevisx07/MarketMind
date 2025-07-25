@@ -2,13 +2,15 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28%2B-red)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Docker](https://img.shields.io/badge/Docker-Supported-blue)](https://docker.com/)
+[![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-Deployed-yellow)](https://huggingface.co/)
 
 > **Professional-grade stock analysis with machine learning predictions and real-time technical indicators**
 
 A comprehensive, AI-powered stock market dashboard that combines advanced technical analysis, machine learning price predictions, and intelligent market insights in a beautiful, interactive interface.
 
-<img width="1848" height="902" alt="image" src="https://github.com/user-attachments/assets/1240cbb5-d3d0-4922-bf48-379d9a466ca4" />
+<img width="1877" height="948" alt="image" src="https://github.com/user-attachments/assets/303d1a62-33b4-4593-a60d-e85f1ec707f9" />
+
 
 ## ✨ Features
 
@@ -30,6 +32,10 @@ A comprehensive, AI-powered stock market dashboard that combines advanced techni
 - **Popular Stock Presets** - Quick access to FAANG+ stocks
 - **Custom Symbol Input** - Analyze any publicly traded stock
 
+### 🚀 **Deployment & Containerization**
+- **Docker Support** - Containerized deployment for easy setup and scalability
+- **Hugging Face Deployment** - Live demo available on Hugging Face Spaces
+
 ### 🎨 **Professional Interface**
 - **Dark Theme** - Easy on the eyes for extended analysis
 - **Responsive Design** - Works perfectly on desktop and mobile
@@ -47,9 +53,11 @@ Python 3.8 or higher
 
 ### Installation
 
+#### Option 1: Standard Installation
+
 1. **Clone the repository**
 ```bash
-git clone ..
+git clone https://github.com/Trevisx07/MarketMind/
 cd ai-stock-dashboard
 ```
 
@@ -67,6 +75,33 @@ streamlit run stock_dashboard.py
 ```
 Navigate to http://localhost:8501
 ```
+
+#### Option 2: Docker Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Trevisx07/MarketMind/
+cd ai-stock-dashboard
+```
+
+2. **Build Docker image**
+```bash
+docker build -t ai-stock-dashboard .
+```
+
+3. **Run Docker container**
+```bash
+docker run -p 8501:8501 ai-stock-dashboard
+```
+
+4. **Open your browser**
+```
+Navigate to http://localhost:8501
+```
+
+#### Option 3: Try Live Demo
+
+🤗 **[Try it on Hugging Face Spaces](https://huggingface.co/spaces/your-username/ai-stock-dashboard)** - No installation required!
 
 
 ## 📦 Dependencies
@@ -170,10 +205,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🌟 Acknowledgments
 
 - **Yahoo Finance** for providing free stock data
@@ -186,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you find this project helpful, please give it a ⭐ on GitHub!
 
 For questions or issues:
-- Open an [Issue](..)
+- Open an [Issue](https://github.com/Trevisx07/MarketMind/issues)
 
 ---
 
@@ -194,7 +225,7 @@ For questions or issues:
 
 **Built with ❤️ and Python**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](..)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](..)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]([https://github.com/erikthiart](https://github.com/Trevisx07/MarketMind/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/het-patel-65a272252/)
 
 </div>
